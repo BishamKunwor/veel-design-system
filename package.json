@@ -1,0 +1,26 @@
+{
+  "name": "@veel/design-system",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier . --write",
+    "check-format": "prettier . --check"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "author": {
+    "name": "Bisham Kunwor",
+    "email": "novelian.nova@gmail.com",
+    "url": "https://bishamkunwor.com.np"
+  },
+  "license": "MIT"
+}
