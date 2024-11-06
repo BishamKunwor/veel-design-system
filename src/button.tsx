@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { type PropsWithChildren } from 'react';
+import Tooltip from './tooltip';
 
-export default function Button() {
+export default function Button({
+  children,
+}: PropsWithChildren & { className: string }) {
   return (
     <button className='bg-red-400 text-4xl font-medium'>
-      This is a button okay
+      <Tooltip />
+      {children}
     </button>
   );
 }
